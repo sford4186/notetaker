@@ -83,8 +83,8 @@ app.post("/api/notes", function(req, res) {
   app.delete("/api/notes/:id", function(req, res) {
       });
   
-      // change it back to an array of objects & send it back to the browser (client)
-      res.send(JSON.parse(notes));
+      
+     // res.send(JSON.parse(notes));
   
        
   // Starts the server to begin listening
